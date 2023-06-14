@@ -132,7 +132,7 @@ header{
     
     }
 .menu-title{
-    width: 80%;
+    width: 100%;
     display: flex;    
     align-items: center;
     padding-left: 4%;
@@ -143,10 +143,9 @@ header{
 }
 #menu{
     color: var(--black-color);
-    cursor: pointer;
-    margin-top:50%;
+    cursor: pointer;    
     right: -0;
-    position: relative;      
+    position: absolute;      
     display: none;
     height: fit-content;
     border-radius: 5px;
