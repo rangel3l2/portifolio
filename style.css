@@ -14,7 +14,8 @@
 }  
 :root{
     --primary-color : #f7f3f3;
-    --secundary-color :  #b11b1b; 
+
+    --secundary-color :  #babdf5; 
     --ternary-color : #b10404;
     --black-color : #3b2a2a;
     --text-color : #b11b1b;
@@ -38,21 +39,15 @@ body{
 header{   
     width: 100%; 
     display: flex;
-    background-color: #babdf5;
-    
+    background-color: var(--secundary-color);
+    height: auto;
     
     align-items: center;
     justify-content: space-between;
     flex-direction: column  ;
-    height: 150px;
+    
 }
-.title{
-   
-    
-    
-    
-   
-}
+
 .title p{
  
     font-size: 3rem;
@@ -83,9 +78,38 @@ header{
     
     
 }
-#idiom :hover{
-    background-color: var(--primary-color);
+#idiom{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    align-items: center;
+    
+}
 
+#menu-idiom{
+    position: absolute;
+    visibility: hidden;
+    margin-right: 5px;
+    top: 6.4%;
+    top: 2.5vh;
+    right: 25px;
+    z-index: 3;
+    background:var(--primary-color);
+    
+}
+#ionic{
+    color: #0b6d0b;
+ 
+}
+#menu-idiom > ul{
+    list-style: none;
+}
+#menu-idiom > ul > li{
+    font-family: texto;
+
+}
+#menu-idiom > ul > li:hover{
+    background-color: var(--secundary-color);
 }
 #mode-noturn{
     
@@ -199,7 +223,7 @@ list-style: none;
 }
 
 .content{
-    padding: 6%;
+    
     font-family:fontTitle;
     
 }
@@ -219,16 +243,25 @@ list-style: none;
 #content-general{
     display: flex;
     align-items: center;
-    height: 100%;
+
     width: 100%;
     padding: 1%;
+    
 
    
   
 }
+
 #imgR{
     height: 6vh;
     align-self: center;
+    
+}
+
+#first-page{
+    display: flex;
+    flex-direction: row;
+    padding: 4%;
     
 }
 @media(max-width:768px){
@@ -243,6 +276,11 @@ list-style: none;
     .menu-title{
         max-height: 100px;
     }
+    #idiom > p{
+        display: none;
+
+    }
+
 }
 
 

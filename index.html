@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <title>portifolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </head>
 <body>
 
@@ -19,11 +20,20 @@
             </div>
              
         </div>
-        <div id="idiom">
+        <div id="idiom" onclick="toggleIdiom()">
+            <div id="menu-idiom">
+                <ul>
+                    <li class=" dark-mode">Portuguese</li>
+                    <li class=" dark-mode">Ingles</li>
+                    <li class=" dark-mode">Espanhol</li>
+                </ul>
+
+            </div>    
             <p class="dark-mode">
                 Idioma
             </p>
-
+            <ion-icon id="ionic" name="planet"></ion-icon>  
+                   
         </div>
     </div>
    <div class="menu-title">
@@ -74,7 +84,7 @@
 
 </header>
 <div id="content-general">
-    <section>
+    <section id="first-page">
         <div class="content">
             <p class="title-container dark-mode" >
                 Olá, sou um desenvolvedor 
@@ -89,9 +99,12 @@
                 não tropeçemos e esquecemos o verdadeiro ideal 
             </p>
             
-            <p class="content-text dark-mode">que buscamos quando iniciamos nosso". </p>
+            <p class="content-text dark-mode">que buscamos quando iniciamos nosso caminho". </p>
         </div>
-        
+        <div class="art">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut, fugiat non ullam, id quo distinctio explicabo praesentium quidem eligendi ipsum! Corrupti, eligendi inventore quaerat quas hic amet ut nam.
+
+        </div>
     </section>
     
 </div>   
