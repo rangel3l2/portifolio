@@ -295,6 +295,14 @@ list-style: none;
         display: none;
 
     }
+    .title p{
+ 
+        font-size: 3rem;
+    }
+    .art{
+        display: none;
+        
+    }
 
 }
 
