@@ -31,7 +31,7 @@ body{
 }
 #container{
     background-color: var(--primary-color);
-    height: 90vh;
+    min-height: 90vh;
     width: 100%;
     display: flex;
     flex-direction: column;
