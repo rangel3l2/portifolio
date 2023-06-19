@@ -262,6 +262,7 @@ list-style: none;
     flex-direction: row;
     padding: 4%;
     width: 100%;
+    justify-content: space-around;
     
 }
 #btn-works{
@@ -276,10 +277,7 @@ list-style: none;
 .art{
     display: flex;
     align-items: center;
-    background: #000;
-    width: auto;
-    justify-content: space-around;
-
+    
 }
 @media(max-width:768px){
     .main-menu > ul{
