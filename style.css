@@ -242,8 +242,7 @@ list-style: none;
 }
 #content-general{
     display: flex;
-    align-items: center;
-
+    align-items: center;    
     width: 100%;
     
     
@@ -262,6 +261,7 @@ list-style: none;
     display: flex;
     flex-direction: row;
     padding: 4%;
+    width: 100%;
     
 }
 #btn-works{
