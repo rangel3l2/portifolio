@@ -276,6 +276,10 @@ list-style: none;
 .art{
     display: flex;
     align-items: center;
+    background: #000;
+    width: auto;
+    justify-content: space-around;
+
 }
 @media(max-width:768px){
     .main-menu > ul{
