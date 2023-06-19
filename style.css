@@ -50,7 +50,7 @@ header{
 
 .title p{
  
-    font-size: 3rem;
+    font-size: 6rem;
 }
 .main-menu{
     flex-wrap: wrap;
@@ -233,7 +233,7 @@ list-style: none;
  
 }
 .content-text{
-    font-size: 1.3rem;
+    font-size: 2rem;
     margin-top: 2%;
     font-family: texto;
     font-weight: 500;
@@ -263,6 +263,19 @@ list-style: none;
     flex-direction: row;
     padding: 4%;
     
+}
+#btn-works{
+    border-radius: 12px;
+    padding: 2rem;
+    
+}
+#btn-works:hover{
+    cursor: pointer;
+    background-color: var(--secundary-color);
+}
+.art{
+    display: flex;
+    align-items: center;
 }
 @media(max-width:768px){
     .main-menu > ul{
